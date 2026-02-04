@@ -130,3 +130,6 @@ Thumbs.db
 # Specific test notebooks
 test.ipynb
 test2.ipynb
+
+# Attachments folder
+Attachments/
