@@ -1,3 +1,4 @@
+from pathlib import Path
 from typing import Any
 
 from tinydb import Query, TinyDB
@@ -6,7 +7,9 @@ from tinydb import Query, TinyDB
 class DatabaseManager:
     """Lightweight wrapper around TinyDB collections used in the app."""
 
-    def __init__(self, db_path: str = "email_manager.json") -> None:
+    def __init__(self, db_path: str | None = None) -> None:
+        if db_path is None:
+            db_path = str(Path(__file__).resolve().parents[2] / "email_manager.json")
         self.db = TinyDB(db_path)
         self.profiles = self.db.table("profiles")
         self.templates = self.db.table("templates")
