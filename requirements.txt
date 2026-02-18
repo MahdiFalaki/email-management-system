@@ -4,3 +4,4 @@ python-dotenv>=1.0.0
 yagmail>=0.15.293
 loguru>=0.7.2
 openai>=1.0.0
+boto3>=1.34.0
