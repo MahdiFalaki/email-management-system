@@ -1,9 +1,9 @@
 from __future__ import annotations
 
-"""Schedules module logic used by the Streamlit schedules page.
+"""Schedules feature logic used by the Streamlit schedules page.
 
-This module intentionally keeps business logic and formatting out of the UI file so
-it can be tested without running Streamlit.
+This module keeps business logic and formatting out of page rendering so it
+remains reusable and testable.
 """
 
 from dataclasses import dataclass

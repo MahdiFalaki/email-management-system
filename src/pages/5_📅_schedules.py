@@ -6,7 +6,7 @@ from datetime import date, datetime, time
 
 import streamlit as st
 
-from pages.schedules_module import (
+from features.schedules import (
     build_schedule_rows,
     combine_schedule_datetime,
     validate_future_schedule,
