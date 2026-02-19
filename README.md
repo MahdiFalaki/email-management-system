@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11+">
   <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/Database-TinyDB-0A7EA4?style=for-the-badge" alt="TinyDB">
+  <img src="https://img.shields.io/badge/Version-v1-1F8B4C?style=for-the-badge" alt="Version v1">
 </p>
 
 ---
