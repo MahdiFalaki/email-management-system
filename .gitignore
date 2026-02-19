@@ -136,6 +136,5 @@ Attachments/
 
 # Local/private project docs and data
 PROJECT_DESCRIPTION.md
-email_manager.json
 src/email_manager.json
 1.34.0
